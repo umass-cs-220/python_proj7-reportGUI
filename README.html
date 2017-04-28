@@ -130,6 +130,7 @@ $(document).ready(function () {
 <h2>Setup</h2>
 <p>First, you need to download the project from github. The files included are: <code>report_gui.py</code>, <code>report_model.py</code>, <code>dbaccessor.py</code> (the <code>submit.py</code> script is also provided for convenience).</p>
 <p>The database you will work with is created by running this file in sqlite3: <code>MusicStoreCreate_Sqlite.sql</code>. The data load is in the file <code>MusicStoreData_Sqlite.sql</code>, which you also run from the sqlite3 command line. See the lab9 material for details. Run the create script so that you produce the file <code>music.db</code>. Note: the data file may take some time to fully load- run it, then go have a beverage and come back.</p>
+<p>NOTE: In the sql files you might have to change the EOL character to unix LF. In notepad++ this is: edit/EOL conversion/unix LF.</p>
 <p>After the database has been created and the data loaded, run a few simple queries from the sqlite3 command line to test it. Then, go to the dbaccessor module and run a very simple query to test the connection from the python application.</p>
 <p>At that point you can start to build the rest of the program.</p>
 </div>
